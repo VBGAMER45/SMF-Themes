@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<theme-info xmlns="http://www.simplemachines.org/xml/theme-info" xmlns:smf="http://www.simplemachines.org/">
+	<id>runic:rIBBON</id>
+	<version>2.0.1</version>
+	<name>rIBBON</name>
+	<author name="SMFHacks.com">www.smfhacks.com</author>
+	<website>http://www.smfhacks.com</website>
+	<layers>html,body</layers>
+	<templates>index</templates>
+	<based-on></based-on>
+</theme-info>

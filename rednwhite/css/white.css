@@ -1,0 +1,214 @@
+#headerarea
+{
+background: #fbfbfb;
+border-top: 1px solid #B30000;
+border-right: 1px solid #B30000;
+border-left: 1px solid #B30000;
+}
+#bodyarea
+{
+background: #fbfbfb;
+border-right: 1px solid #B30000;
+border-left: 1px solid #B30000;
+}
+body
+{
+	background-color: #E5E5E8;
+	margin: 0px;
+	padding: 12px 30px 4px 30px;
+}
+#footerarea
+{
+background: #fbfbfb;
+border-bottom: 1px solid #B30000;
+border-right: 1px solid #B30000;
+border-left: 1px solid #B30000;
+}
+.windowbg, #preview_body
+{
+	color: #B30000;
+	background-color: #ECEDF3;
+}
+.windowbg2
+{
+	color: #B30000;
+	background-color: #F6F6F6;
+}
+.windowbg3
+{
+	color: #B30000;
+	background-color: #E0E1E8;
+}
+#tab{
+	position:relative;
+	display:block;
+	height:39px;
+	font-size:11px;
+	font-weight:bold;
+	background:transparent url(../images/white/tab1.gif) repeat-x top left;
+	font-family:Arial,Verdana,Helvitica,sans-serif;
+	border-top:4px solid #B30000;
+	margin: auto;
+	}
+
+#tab ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:auto;
+	}
+
+#tab ul li{
+	display:block;
+	float:left;
+	margin:0;
+	}
+
+#tab ul li a{
+	display:block;
+	float:left;
+	color:#666;
+	text-decoration:none;
+	padding:11px 20px 0 20px;
+	height:23px;
+	background:transparent url(../images/white/tab3.gif) no-repeat top right;
+	}
+
+#tab ul li a:hover,#tab ul li a.current{
+	color:#B30000;
+	background:#fff url(../images/white/tab2.gif) no-repeat top right;
+	}
+#menucase
+{
+border-right: 1px solid #B30000;
+border-left: 1px solid #B30000;
+}
+/* definitions for the main tab, active means the tab reflects which page is displayed */
+.maintab_first, .maintab_back, .maintab_last, .maintab_active_first, .maintab_active_back, .maintab_active_last
+{
+	color: #B30000;
+	text-transform: uppercase;
+	vertical-align: top;
+}
+.maintab_back, .maintab_active_back
+{
+	color: #B30000;
+	text-decoration: none;
+	font-size:  9px;
+	vertical-align: top;
+	padding: 2px 6px 6px 6px;
+	font-family: tahoma, sans-serif;
+}
+
+.maintab_first
+{}
+.maintab_back
+{
+	height:19px;
+}
+.maintab_last
+{
+	width: 8px;
+	height:19px;
+}
+.maintab_active_first
+{
+}
+.maintab_active_back
+{
+	height:19px;
+}
+.maintab_active_last
+{
+	width: 8px;
+}
+
+/* how links behave in main tab. */
+.maintab_back a:link , .maintab_back a:visited, .maintab_active_back a:link , .maintab_active_back a:visited
+{
+	color: #B30000;
+	text-decoration: none;
+}
+
+.maintab_back a:hover, .maintab_active_back a:hover
+{
+	color: #B30000;
+	text-decoration: none;
+}
+/* definitions for the mirror tab */
+.mirrortab_first, .mirrortab_back, .mirrortab_last, .mirrortab_active_first, .mirrortab_active_back, .mirrortab_active_last
+{
+	color: #B30000;
+	text-transform: uppercase;
+	vertical-align: top;
+}
+.mirrortab_back, .mirrortab_active_back
+{
+	color: #B30000;
+	text-decoration: none;
+	font-size: 9px;
+	vertical-align: bottom;
+	padding: 6px 6px 2px 6px;
+	font-family: tahoma, sans-serif;
+}
+
+.mirrortab_first
+{
+	width: 10px;
+}
+.mirrortab_back
+{
+}
+.mirrortab_last
+{
+	width: 6px;
+}
+.mirrortab_active_first
+{
+	width: 6px;
+}
+.mirrortab_active_back
+{
+}
+.mirrortab_active_last
+{
+	width: 8px;
+}
+
+/* how links behave in mirror tab. */
+.mirrortab_back a:link , .mirrortab_back a:visited, .mirrortab_active_back a:link , .mirrortab_active_back a:visited
+{
+	color: #B30000;
+	text-decoration: none;
+}
+
+.mirrortab_back a:hover, .mirrortab_active_back a:hover
+{
+	color: #B30000;
+	text-decoration: none;
+}
+/*Style Stuff*/
+.catbg , tr.catbg td , .catbg3 , tr.catbg3 td
+{
+	background: url(../images/white/tab1.gif) #FFFFFF repeat-x;
+	color: #B30000;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.catbg2 , tr.catbg2 td
+{
+	background: url(../images/white/tab2.jpg) #FFFFFF repeat-x;
+	color: #B30000;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.titlebg, tr.titlebg th, tr.titlebg td, .titlebg2, tr.titlebg2 th, tr.titlebg2 td
+{
+	color: #B30000;
+	font-style: normal;
+	background: #fbfbfb;
+	border-bottom: solid 1px #9BAEBF;
+	border-top: solid 1px #FFFFFF;
+	padding-left: 10px;
+	padding-right: 10px;
+}

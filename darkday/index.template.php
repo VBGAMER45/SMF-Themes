@@ -256,6 +256,7 @@ function template_body_below()
 
 		echo '
 					<input type="hidden" name="hash_passwrd" value="" />
+					<input type="hidden" name="', $context['session_var'], '" value="', $context['session_id'], '" />
 				</form>';
 	}
 

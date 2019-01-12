@@ -234,7 +234,7 @@ function template_body_above()
 				echo'
 					<br /><input type="text" name="openid_identifier" id="openid_url" size="25" class="input_text openid_login" />';
 
-			echo '
+			echo '  <input type="hidden" name="', $context['session_var'], '" value="', $context['session_id'], '" />
 					<input type="hidden" name="hash_passwrd" value="" />
 				</form>';
 		}
